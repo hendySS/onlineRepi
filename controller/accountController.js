@@ -3,7 +3,7 @@ User = mongoose.model('users');
 
 var users = new User({
     _id:new mongoose.Types.ObjectId(),
-    nama:"user1",
+    nama:"user2",
   }); 
   
 users.save(function(err,projects){
