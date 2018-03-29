@@ -1,9 +1,9 @@
 var mongoose = require('mongoose'),
-User = mongoose.model('users');
+User = mongoose.model('userss');
 
 var users = new User({
     _id:new mongoose.Types.ObjectId(),
-    nama:"user2",
+    nama:"Asadxz",
   }); 
   
 users.save(function(err,projects){
