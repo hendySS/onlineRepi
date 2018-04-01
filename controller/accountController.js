@@ -11,7 +11,7 @@ users.save(function(err,projects){
 });
 */
 exports.homePage = function(req, res){
-    res.sendFile('./homePage.html', {root: 'public'});
+    res.sendFile('homePage.html', {root: 'public'});
 }
 
 exports.todo1 = function(req, res){
