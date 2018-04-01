@@ -1,5 +1,5 @@
 var mongoose = require('mongoose'),
-User = mongoose.model('userss');
+User = mongoose.model('list');
 
 var users = new User({
     _id:new mongoose.Types.ObjectId(),

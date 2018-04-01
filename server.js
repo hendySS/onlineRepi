@@ -11,7 +11,7 @@ var User = require('./models/account');
 var path = require("path");
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://online:online@ds227459.mlab.com:27459/tes');
+mongoose.connect('mongodb://list:12345@ds227459.mlab.com:27459/tes');
 
 app.all('*', function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
