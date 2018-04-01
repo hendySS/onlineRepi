@@ -1,6 +1,6 @@
 var mongoose = require('mongoose'),
 User = mongoose.model('list');
-
+/*
 var users = new User({
     _id:new mongoose.Types.ObjectId(),
     nama:"Asadxz",
@@ -9,7 +9,7 @@ var users = new User({
 users.save(function(err,projects){
     console.log('ok');
 });
-
+*/
 exports.homePage = function(req, res){
     res.sendFile('./homePage.html', {root: 'public'});
 }
