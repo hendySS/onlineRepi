@@ -10,10 +10,6 @@ users.save(function(err,projects){
     console.log('ok');
 });
 */
-exports.homePage = function(req, res){
-    res.sendFile('./homePage.html', {root: 'public'});
-}
-
 exports.todo1 = function(req, res){
     User.find({}, function(err, penduduk) {
         if (err){
